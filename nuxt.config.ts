@@ -8,20 +8,6 @@ export default defineNuxtConfig({
         {
           rel: 'icon',
           href: '/favicon.png'
-        },
-        {
-          rel: 'preload',
-          href: '/assets/fonts/ppneuemontreal-medium.woff2',
-          as: 'font',
-          type: 'font/woff',
-          crossorigin: 'anonymous'
-        },
-        {
-          rel: 'preload',
-          href: '/assets/fonts/ppneuemontreal-bold.woff2',
-          as: 'font',
-          type: 'font/woff',
-          crossorigin: 'anonymous'
         }
       ],
       htmlAttrs: {
