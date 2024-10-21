@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     buildAssetsDir: "/nuxt/",
     head: {
       title: 'raspbry',
-      link: [,
+      link: [
         {
           rel: 'icon',
           href: '/favicon.png'
