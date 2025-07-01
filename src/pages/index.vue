@@ -4,7 +4,7 @@
       <div class="content">
         <nuxt-img src="/assets/images/logo.svg" alt="raspbry" width="80" height="101" />
         <h1>raspbry</h1>
-        <h2>website coming soon</h2>
+        <h2><a href="mailto:dan@raspbry.design">dan@raspbry.design</a></h2>
       </div>
     </div>
   </section>
@@ -34,6 +34,10 @@ useHead({
 
     h2 {
       @apply text-center text-xl;
+
+      a {
+        color: #FD3E81;
+      }
     }
   }
 </style>
